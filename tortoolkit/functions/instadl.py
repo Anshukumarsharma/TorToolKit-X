@@ -164,7 +164,7 @@ async def _insta_post_downloader(message):
     if get_val("INSTA_UNAME") is not None and get_val("INSTA_PASS") is not None:
         login = True
     else:
-        login = False
+        login = True
 
     if login:
         try: 
